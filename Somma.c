@@ -1,8 +1,13 @@
-#include <stdio.h>
-main()
+#include<stdio.h>
+int main()
 {
-    int x;
-    printf("Hello World: ");
-    scanf("%d",&x);
-    printf("il numero è: %d\n\n", x);
+    int i,a,b=1;
+    printf("Sommatore\n");
+    for(i=1;i<=5;i++)
+    {
+        printf("Scrivi il %d° valore: ",i);
+        scanf("%d",&a);
+        b=b+a;
+    }
+    printf("Il risultato é: %d\n",b);
 }
