@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int n,i,j,ns,n=1;
-
-    for(i=1;i<=n,i++)
+    int n,i,j,ns,na=1;
+    printf("Inserisci un numero: ");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
         ns=n-i;  
     for(j=0;j<ns;j++)   
@@ -20,6 +21,6 @@ int main()
     
     
     
-    )
+    
 
 }
