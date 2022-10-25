@@ -21,3 +21,4 @@ int main()
     riga();
   }
 }
+/*non va*/
