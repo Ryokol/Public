@@ -2,14 +2,11 @@
 
 int main()
 {
-    int a,b,i;
-    for(i=1;i!=0;i++)
-    {
+    int a,b;
         printf("Inserisci un numero: ");
         scanf("%d",&a);
         accumulo(a);
         printf("%d",potenza(a));
-    }
 }
 
 int accumulo(int a,int b)
