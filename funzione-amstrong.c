@@ -9,7 +9,7 @@ int main()
         for(s=1;s<=b;s++)
       {
         potenza(a,c);
-        print("%d^%d",potenza(a1),b);
+        print("%d^%d",potenza(a),b);
         if(s==b)
         {
             printf(" = ");
@@ -21,6 +21,7 @@ int main()
         }
       }  
         printf("%d",a);
+        return 0;
 }
 
 int accumulo(int a,int b)
