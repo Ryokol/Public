@@ -6,16 +6,16 @@ int main()
     int a,b,s,c=1;
         printf("Inserisci un numero: ");
         scanf("%d",&a);
-        accumulo(int a,int b);
+        accumulo(a,b);
         for(s=1;s<=b;s++)
       {
         potenza(a,c);
-        print("%d^%d",potenza(a),b);
+        printf("%d^%d",potenza(a),b);
         if(s==b)
         {
             printf(" = ");
         }
-        else(s<b)
+        else(s<b);
         {
             printf("+");
             c=c*10;
@@ -34,7 +34,7 @@ int accumulo(int a,int b)
         a2=a2/c3;
         if(a2!=0)
         {
-            c3=c3*10:
+            c3=c3*10;
         }
     }
     b=j3;
