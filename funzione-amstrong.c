@@ -1,11 +1,12 @@
 #include<stdio.h>
-
+int accumulo();
+int potenza();
 int main()
 {
     int a,b,s,c=1;
         printf("Inserisci un numero: ");
         scanf("%d",&a);
-        accumulo(a,b);
+        accumulo(int a,int b);
         for(s=1;s<=b;s++)
       {
         potenza(a,c);
