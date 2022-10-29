@@ -1,6 +1,9 @@
 #include<stdio.h>
+
 int accumulo();
+
 int potenza();
+
 int main()
 {
     int a,b,s,c=1;
@@ -38,7 +41,7 @@ int accumulo(int a,int b)
         }
     }
     b=j3;
-    return (b);
+    return b;
 
 
 }
