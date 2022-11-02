@@ -13,4 +13,4 @@ int min(void)
                                             printf("%d\n",numeri[i]);
                                                 }
                                                     return 0;
-                                                     }
+                                                    
