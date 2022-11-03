@@ -1,10 +1,13 @@
 #include<stdio.h>
-#define. DIM 201
+#define DIM 201
 
 int bisestile(int n)
 {
     if(n%4 == 0 && n%100 !=0)
-    .......
+    {
+        return 1;
+    }
+    return 0;
 }
 
 int main()
