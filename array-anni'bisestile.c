@@ -13,7 +13,7 @@ int bisestile(int n)
 int main()
 {
     int a[DIM];
-    int b[DIM]
+    int b[DIM];
     int i,dl,n;
     for(i=0;i<DIM;i++)
     {
@@ -30,7 +30,7 @@ int main()
     }
     for(i=0;i<dl;i++)
     {
-        print("%d\n",b[i]);
+        printf("%d\n",b[i]);
     }
     return 0;
 }
