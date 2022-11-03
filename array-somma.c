@@ -10,4 +10,5 @@ int main()
         scanf("%d",&a[j]);
     }
     printf("%d",a[i]);
+    return 0;
 }
