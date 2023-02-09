@@ -16,3 +16,4 @@ int potenza(int n,int m)
   j=j*n;
  }
  return j;
+}

@@ -6,18 +6,18 @@ int main()
     scanf("%c",&c);
     if(c>=65 && c<=90)
     {
-        printf("%c  è. maiuscola",c);
+        printf("%c  è. maiuscola\n",c);
     }
     if(c>=97. && c<=122)
     {
-        printf("%c è minuscola",c);
+        printf("%c è minuscola\n",c);
     }
     if(c>=48 && c<=57)
     {
-        printf("%c è un numero",c);
+        printf("%c è un numero\n",c);
     }
     else
     {
-        printf("carattere diverso");
+        printf("carattere diverso\n");
     }
 }
