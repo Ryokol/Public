@@ -12,23 +12,23 @@ int main()
     int i;
     char CodiceFiscale[16];
 
-    printf("Inserisci il codice fiscale: ");
+    printf("Inserisci il codice fiscale: "); //Inserimento Codice
 
     for(i = 0; i < 16; i++)
     {
        scanf("%c",&CodiceFiscale[i]);
     }
-    printf("\nCodice Inserito: ");
+    printf("\nCodice Inserito: ");  //controllo codice
     for (i = 0; i < 16; i++)
     {
         printf("%c",CodiceFiscale[i]);
     }
     printf("\n");
 
-    printf("\nGiorno: ");
+    printf("\nGiorno: "); //Codifica Giorno
     for(i=9;i<11;i++)
     {
-        pointer =& CodiceFiscale[i];
+        pointer = &CodiceFiscale[i];
         giorno = *pointer;
         printf("%c",giorno);
     }
@@ -37,14 +37,14 @@ int main()
     pointer = & CodiceFiscale[8];
     mese = *pointer;
 
-    check = CodificaMese(mese);
+    check = CodificaMese(mese); //Codifica Mese
     if(check==0)
     {
         printf("CODICE FISCALE ERRATO\n\n");
         return 0;
     }
 
-    printf("\nAnno: ");
+    printf("\nAnno: "); //codifica Anno
     for(i=6;i<8;i++)
     {
         pointer =& CodiceFiscale[i];
