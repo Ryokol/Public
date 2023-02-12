@@ -21,9 +21,9 @@ int main()
     printf("Inserisci numero pagine: ");
     scanf("%d",&p->pagine);
 
-    printf("Titolo Libro: %s",p->titolo);
-    printf("Autore Libro: %s",p->autore);
-    printf("Numero pagine: %d",p->pagine);
+    printf("\nTitolo Libro: %s\n",p->titolo);
+    printf("Autore Libro: %s\n",p->autore);
+    printf("Numero pagine: %d\n",p->pagine);
 
 }
 
