@@ -23,7 +23,8 @@ int main()
 
     printf("\nTitolo Libro: %s\n",p->titolo);
     printf("Autore Libro: %s\n",p->autore);
-    printf("Numero pagine: %d\n",p->pagine);
+    printf("Numero pagine:%d\n",p->pagine);
 
+    return 0;
 }
 
