@@ -9,5 +9,9 @@ typedef struct lista
 
 int main()
 {
+    int primo,secondo,terzo;
+    nodo* count;
+    count = lista;
+    
 
 }
