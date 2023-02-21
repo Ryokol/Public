@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void riga(int x,y)
+void riga(int x,int y)
 {
   int i,j;
   for(j=0;j<y;j++)

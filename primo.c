@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int i,a,b=o;
+    int i,a,b=0;
     printf("Scegli un numero: ");
     scanf("%d",&a);
     for(i=a;i>0;i--)
